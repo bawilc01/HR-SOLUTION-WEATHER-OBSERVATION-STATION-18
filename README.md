@@ -4,9 +4,7 @@ Solutions for MySQL and SQL Server
 ## PROBLEM
 ![image](https://github.com/user-attachments/assets/0c27b23d-2137-47b2-a057-81c2c4e8dbb3)
 
-Query the [Manhattan Distance](https://xlinux.nist.gov/dads/HTML/manhattanDistance.html) between points
-and and round it to a scale of decimal places.
-
+[Manhattan Distance](https://xlinux.nist.gov/dads/HTML/manhattanDistance.html)
 ## SQL SERVER:
 SELECT CONVERT(DECIMAL(16, 4), ABS(MAX(LAT_N) - MIN(LAT_N)) + ABS(MAX(LONG_W) - MIN(LONG_W))) 
 FROM STATION;
